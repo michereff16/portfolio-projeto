@@ -149,4 +149,12 @@ li:hover {
     background-color: #D870DB;
     color: #fff;
     font-family: 'Oswald', sans-serif;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.divider {
+    width: 100%;
+    border-top: .05px solid #bfbfbf;
+    margin: 20px 0;
 }
