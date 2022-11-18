@@ -158,3 +158,21 @@ li:hover {
     border-top: .05px solid #bfbfbf;
     margin: 20px 0;
 }
+
+.icons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.icon-item {
+    width: 80px;
+    height: auto;
+}
+
+.profile-sinopse {
+    width: 430px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 17px;
+}
