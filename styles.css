@@ -76,21 +76,77 @@ li:hover {
 100% {opacity:0}
 }
 
-.arrow path.a1 {
+.arrows path.a1 {
+    animation-delay:  -1s;
+    -webkit-animation-delay:  -1s;
+}
+
+.arrows path.a2 {
     animation-delay:  -0.5s;
     -webkit-animation-delay:  -0.5s;
 }
 
-.arrow path.a2 {
-    animation-delay:  -0.5s;
-    -webkit-animation-delay:  -0.5s;
-}
-
-.arrow path.a3 {
-    animation-delay:  -0.5s;
-    -webkit-animation-delay:  -0.5s;
+.arrows path.a3 {
+    animation-delay:  0s;
+    -webkit-animation-delay:  0s;
 }
 
 .content-container {
     height: 100vh;
+    background-color: #333;
+}
+
+.profile-container {
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./akin-cakiner-xKBmqz66gEs-unsplash.jpg);
+    background-size: cover;
+}
+
+.profile-content {
+    width: 30%;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #D870DB;
+}
+
+.name-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.profile-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.profile-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #D870DB;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
 }
